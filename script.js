@@ -21,7 +21,7 @@ setInterval(function () {
         document.getElementById('tmDialog_iframe').contentWindow.document.getElementsByTagName("label")[0].click();
         cancle[0].click();
 }
-    console.log("Now£º" + isNest);
+    console.log("Now " + isNest);
     if (isNest === '100%') {
     var nextBtn = document.getElementById("nextBtn");
     nextBtn.click();
